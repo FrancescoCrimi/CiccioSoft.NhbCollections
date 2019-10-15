@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>CiccioSoft.NhbCollections</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.2.2</Version>
+    <AssemblyName>CiccioSoft.NhbCollections</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CiccioSoft.Collections" Version="1.0.0" />
+    <PackageReference Include="NHibernate" Version="5.2.6" />
+  </ItemGroup>
+
+</Project>
