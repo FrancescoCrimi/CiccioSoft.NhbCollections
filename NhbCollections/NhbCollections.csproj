@@ -4,13 +4,13 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>CiccioSoft.NhbCollections</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <AssemblyName>CiccioSoft.NhbCollections</AssemblyName>
     <Copyright>Licensed under LGPL.</Copyright>
     <PackageLicenseExpression>LGPL-2.1-only</PackageLicenseExpression>
     <PackageTags>ORM; O/RM; ObjectRelationalMapping; NHibernate; INotifyCollectionChanged; IBindingList; ObservableCollection&lt;T&gt;; BindingList&lt;T&gt;; WinForms; WPF; UWP;</PackageTags>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <FileVersion>1.0.1.0</FileVersion>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
     <Company>CiccioSoft</Company>
     <Authors>Francesco Crimi</Authors>
     <Description>NHibernate List, Bag and Set that implement IBindingList, INotifyCollectionChanged or both</Description>
@@ -19,7 +19,7 @@
 
   <ItemGroup>
     <PackageReference Include="CiccioSoft.Collections" Version="1.0.1" />
-    <PackageReference Include="NHibernate" Version="5.2.6" />
+    <PackageReference Include="NHibernate" Version="5.3.3" />
   </ItemGroup>
 
 </Project>
