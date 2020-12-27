@@ -16,7 +16,6 @@ namespace CiccioSoft.NhbCollections.Binding
     {
         private ListChangedEventHandler listChanged;
 
-
         #region Constructors
 
         public PersistentBindingSet() { }
@@ -26,7 +25,6 @@ namespace CiccioSoft.NhbCollections.Binding
             : base(session, original) { CaptureEventHandlers(); }
 
         #endregion
-
 
         public override void BeforeInitialize(ICollectionPersister persister, int anticipatedSize)
         {
@@ -40,7 +38,6 @@ namespace CiccioSoft.NhbCollections.Binding
                 ibl.ListChanged += (sender, e) => listChanged?.Invoke(this, e);
         }
 
-
         #region IBindingList
 
         event ListChangedEventHandler IBindingList.ListChanged
@@ -52,24 +49,53 @@ namespace CiccioSoft.NhbCollections.Binding
             }
             remove { listChanged -= value; }
         }
+
         object IBindingList.AddNew() => throw new NotSupportedException();
+
         bool IBindingList.AllowNew => false;
+
         bool IBindingList.AllowEdit => true;
+
         bool IBindingList.AllowRemove => true;
+
         bool IBindingList.SupportsChangeNotification => true;
+
         bool IBindingList.SupportsSearching => false;
+
         bool IBindingList.SupportsSorting => false;
+
         bool IBindingList.IsSorted => false;
+
         PropertyDescriptor IBindingList.SortProperty => null;
+
         ListSortDirection IBindingList.SortDirection => ListSortDirection.Ascending;
-        void IBindingList.ApplySort(PropertyDescriptor prop, ListSortDirection direction) => throw new NotSupportedException();
-        void IBindingList.RemoveSort() => throw new NotSupportedException();
-        int IBindingList.Find(PropertyDescriptor prop, object key) => throw new NotSupportedException();
-        void IBindingList.AddIndex(PropertyDescriptor prop) { }
-        void IBindingList.RemoveIndex(PropertyDescriptor prop) { }
+
+        void IBindingList.ApplySort(PropertyDescriptor prop, ListSortDirection direction)
+        {
+            throw new NotSupportedException();
+        }
+
+        void IBindingList.RemoveSort()
+        {
+            throw new NotSupportedException();
+        }
+
+        int IBindingList.Find(PropertyDescriptor prop, object key)
+        {
+            throw new NotSupportedException();
+        }
+
+        void IBindingList.AddIndex(PropertyDescriptor prop)
+        {
+            // Not supported
+        }
+
+        void IBindingList.RemoveIndex(PropertyDescriptor prop)
+        {
+            // Not supported
+        }
 
         #endregion
-
 
         #region IList
 
@@ -89,7 +115,6 @@ namespace CiccioSoft.NhbCollections.Binding
         void IList.RemoveAt(int index) => throw new NotSupportedException();
 
         #endregion
-
 
         #region IRaiseItemChangedEvents
 

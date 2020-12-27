@@ -17,7 +17,6 @@ namespace CiccioSoft.NhbCollections.Observable
         private NotifyCollectionChangedEventHandler collectionChanged;
         private PropertyChangedEventHandler propertyChanged;
 
-
         #region Constructors
 
         public PersistentObservableBag() { }
@@ -27,7 +26,6 @@ namespace CiccioSoft.NhbCollections.Observable
             : base(session, coll) { CaptureEventHandlers(); }
 
         #endregion
-
 
         public override void BeforeInitialize(ICollectionPersister persister, int anticipatedSize)
         {
@@ -43,7 +41,6 @@ namespace CiccioSoft.NhbCollections.Observable
                 npc.PropertyChanged += (sender, e) => propertyChanged?.Invoke(this, e);
         }
 
-
         #region INotifyCollectionChanged
 
         public event NotifyCollectionChangedEventHandler CollectionChanged
@@ -57,7 +54,6 @@ namespace CiccioSoft.NhbCollections.Observable
         }
 
         #endregion
-
 
         #region INotifyPropertyChanged
 
