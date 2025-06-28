@@ -1,0 +1,3 @@
+[submodule "NHibernate"]
+	path = NHibernate
+	url = https://github.com/nhibernate/nhibernate-core.git
