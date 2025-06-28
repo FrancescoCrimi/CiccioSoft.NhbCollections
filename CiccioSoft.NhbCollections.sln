@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29102.190
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NhbCollections", "NhbCollections\NhbCollections.csproj", "{4D7BB8F9-6BCC-4C91-8309-929A62ADF2FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate", "NHibernate\src\NHibernate\NHibernate.csproj", "{FD35736E-A393-B4FE-D07C-D5E51846A0DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4D7BB8F9-6BCC-4C91-8309-929A62ADF2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D7BB8F9-6BCC-4C91-8309-929A62ADF2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D7BB8F9-6BCC-4C91-8309-929A62ADF2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD35736E-A393-B4FE-D07C-D5E51846A0DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD35736E-A393-B4FE-D07C-D5E51846A0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD35736E-A393-B4FE-D07C-D5E51846A0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD35736E-A393-B4FE-D07C-D5E51846A0DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
