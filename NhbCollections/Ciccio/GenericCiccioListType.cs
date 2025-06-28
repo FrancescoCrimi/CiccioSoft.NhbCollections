@@ -11,7 +11,7 @@ using System.ComponentModel;
 namespace CiccioSoft.NhbCollections.Ciccio
 {
     [Serializable]
-    public class GenericCiccioListType<T>  : GenericListType<T>
+    public class GenericCiccioListType<T> : GenericListType<T>
     {
         public GenericCiccioListType(string role, string propertyRef)
             : base(role, propertyRef) { }

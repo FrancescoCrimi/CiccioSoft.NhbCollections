@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1 d17.14
+VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NhbCollections", "NhbCollections\NhbCollections.csproj", "{4D7BB8F9-6BCC-4C91-8309-929A62ADF2FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate", "NHibernate\src\NHibernate\NHibernate.csproj", "{FD35736E-A393-B4FE-D07C-D5E51846A0DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiccioSoft.NhbCollections.Binding", "CiccioSoft.NhbCollections.Binding\CiccioSoft.NhbCollections.Binding.csproj", "{4BCE0A87-B135-4637-8885-8BF9E1A98BA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiccioSoft.NhbCollections.Observable", "CiccioSoft.NhbCollections.Observable\CiccioSoft.NhbCollections.Observable.csproj", "{04417467-B918-4616-9364-CEF368B5F85E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiccioSoft.NhbCollections.Ciccio", "CiccioSoft.NhbCollections.Ciccio\CiccioSoft.NhbCollections.Ciccio.csproj", "{4FF45579-DD26-41EB-BB98-F8B382E0FF5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{FD35736E-A393-B4FE-D07C-D5E51846A0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD35736E-A393-B4FE-D07C-D5E51846A0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD35736E-A393-B4FE-D07C-D5E51846A0DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BCE0A87-B135-4637-8885-8BF9E1A98BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCE0A87-B135-4637-8885-8BF9E1A98BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCE0A87-B135-4637-8885-8BF9E1A98BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCE0A87-B135-4637-8885-8BF9E1A98BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04417467-B918-4616-9364-CEF368B5F85E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04417467-B918-4616-9364-CEF368B5F85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04417467-B918-4616-9364-CEF368B5F85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04417467-B918-4616-9364-CEF368B5F85E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF45579-DD26-41EB-BB98-F8B382E0FF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF45579-DD26-41EB-BB98-F8B382E0FF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF45579-DD26-41EB-BB98-F8B382E0FF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF45579-DD26-41EB-BB98-F8B382E0FF5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
